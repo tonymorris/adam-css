@@ -85,13 +85,13 @@ div#navigation {
   padding-bottom: 30px;
 }
 
-a#tags {
+a.tags {
   color: #bdbdbd;
   font-weight: bold;
   text-decoration: none;
 }
 
-a#tags:hover {
+a.tags:hover {
   text-decoration: underline;
 }
 
@@ -101,13 +101,13 @@ a#tags:hover {
   font-weight: bold;
 }
 
-a#tracklog {
+a.tracklog {
   color: #bdbdbd;
   font-weight: bold;
   text-decoration: none;
 }
 
-a#tracklog:hover {
+a.tracklog:hover {
   text-decoration: underline;
 }
 
@@ -115,7 +115,7 @@ p#designer {
   font-size: 12px;
 }
 
-#hr {
+.hr {
   height: 4px;
   background-color: #d3d3d3;
 }
