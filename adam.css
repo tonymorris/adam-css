@@ -6,78 +6,26 @@ body {
   width: 960px;
   margin: 10px auto 10px auto;
   background-color: #151515;
-  color: #d3d3d3;
+  color: #bdbdbd;
 }
 
-a#nav1 {
+a.navbar {
  border: 2px solid #a1a1a1;
  padding: 6px;
  margin-right: 100px;
  border-radius: 4px;
  text-decoration: none;
- color: #dddddd;
- border-color: #dddddd;
+ color: #a8a8a8;
+ border-color: #a8a8a8;
 }
 
-a#nav2 {
- border: 2px solid #a1a1a1;
- margin-right: 100px;
- padding: 6px;
- border-radius: 4px;
- text-decoration: none;
- color: #dddddd;
- border-color: #dddddd;
+a.navbar:hover {
+  background-color: #a8a8a8;
+  color: #696969;
+  border-color: #696969;
+  transition: background-color 0.2s ease-in;
 }
 
-a#nav3 {
- border: 2px solid #a1a1a1;
- margin-right: 100px;
- padding: 6px;
- border-radius: 4px;
- text-decoration: none;
- color: #dddddd;
- border-color: #dddddd;
-}
-
-a#nav4 {
- border: 2px solid #a1a1a1;
- margin-right: 100px;
- padding: 6px;
- border-radius: 4px;
- text-decoration: none;
- color: #dddddd;
- border-color: #dddddd;
-}
-
-a#nav5 {
- border: 2px solid #a1a1a1;
- margin-right: 100px;
- padding: 6px;
- border-radius: 4px;
- text-decoration: none;
- color: #dddddd;
- border-color: #dddddd;
-}
-
-a#nav1:hover {
-  background-color: #7b7b7b;
-}
-
-a#nav2:hover {
-  background-color: #7b7b7b;
-}
-
-a#nav3:hover {
-  background-color: #7b7b7b;
-}
-
-a#nav4:hover {
-  background-color: #7b7b7b;
-}
-
-a#nav5:hover {
-  background-color: #7b7b7b;
-}
 
 div#navigation {
   text-align: center;
@@ -86,7 +34,7 @@ div#navigation {
 }
 
 a.tags {
-  color: #bdbdbd;
+  color: #d3d3d3;
   font-weight: bold;
   text-decoration: none;
 }
@@ -102,7 +50,7 @@ a.tags:hover {
 }
 
 a.tracklog {
-  color: #bdbdbd;
+  color: #d3d3d3;
   font-weight: bold;
   text-decoration: none;
 }
@@ -115,7 +63,17 @@ p#designer {
   font-size: 12px;
 }
 
-.hr {
+hr {
   height: 4px;
+  color: #d3d3d3;
   background-color: #d3d3d3;
+  border: 0;
+}
+
+#lambda2:hover > .lambda {
+  display: inline-block;
+
+transform: rotate(360deg);
+
+    transition-duration: 0.8s;
 }
